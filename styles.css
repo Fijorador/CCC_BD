@@ -1,8 +1,13 @@
-
 body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
+}
+
+.h3 {
+
+  word-wrap: break-word;
+
 }
 
 #menu {
@@ -39,4 +44,27 @@ body {
 
 .video h3 {
   margin-top: 5px;
+}
+
+.image-container p {
+  text-align: center;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #555;
+  width: 300px;
+  /* Ajuste o valor conforme necessário */
+  align-items: center;
+  text-align: center;
+}
+
+.image-container div span {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  width: 300px;
+  /* Ajuste o valor conforme necessário */
+  align-items: center;
+  display: flex;
+  align-content: center;
+  text-align: center;
 }
